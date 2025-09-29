@@ -1,0 +1,1537 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Marhey:wght@300..700&display=swap');
+/* عربي */
+/* font-family: "Amiri", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
+/* عربي */
+/*  font-family: "Marhey", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Arabic:wght@100..800&display=swap');
+/* عربي */
+/*  font-family: "Playpen Sans Arabic", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap');
+/* font-family: "Noto Sans Arabic", sans-serif; */
+/* عربي */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+/*  font-family: "Alexandria", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/* انجليزي */
+/* font-family: "Oswald", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+/* انجليزي */
+/* font-family: "Story Script", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+/* انجليزي */
+/* font-family: "Lavishly Yours",cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+/* انجليزي */
+/* font-family: "Qwitcher Grypen", cursive; */
+
+
+
+/* اساسيات المشروع ككل */
+:root {
+    --main-color: #7a4e3d93;
+    --main-color-alt: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgba(221, 153, 153, 0.663); */
+    /* background-color: rgba(255, 205, 244, 0.332); */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Noto Sans Arabic", sans-serif;
+    background: linear-gradient(135deg, #F5E6D3 0%, #FDE2E4 100%);
+    /* height: 3500px; */
+    /* شيلها لقدام */
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*تابلت  */
+@media (min-width:576px) and (max-width:768px) {
+    .container {
+        width: 550px;
+    }
+
+    /* تحديد مكان الشاشة بشكل عام */
+}
+
+/* الجوال */
+@media (min-width:768px) and (max-width:991px) {
+    .container {
+        /* width: 750px; */
+        width: 100%;
+    }
+
+    /* تحديد مكان الشاشة بشكل عام */
+
+}
+
+
+/* ايباد */
+@media (min-width:1025px) and (max-width:1280px) {
+    .container {
+        width: 970px;
+    }
+
+    /* تحديد مكان الشاشة بشكل عام */
+}
+
+/* لابتوب  */
+@media (min-width:1281px) {
+    .container {
+        width: 1170px;
+    }
+
+    /* تحديد مكان الشاشة بشكل عام */
+}
+
+
+/*   نهاية اساسيات المشروع*/
+
+/* بداية الصفحة الاول  */
+
+/*login1 بداية القسم الاول من صفحة الرئيسية ضمن كلاس  */
+.login1 {
+    background-color: #7a4e3d93;
+    /* background-color: #7a4e3d66; */
+    /* background-color:#7a4e3d41; */
+    border: 2px solid rgba(0, 0, 0, 0);
+    height: 50px;
+}
+
+.login1 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login1 .container img {
+    width: 40px;
+    position: relative;
+    left: 10px;
+}
+
+.login1 .container nav ul {
+    display: flex;
+}
+
+.login1 .container nav ul a {
+    display: block;
+    padding: 20px 10px;
+    font-size: 16px;
+    font-weight: 20px;
+    color: rgba(255, 255, 255, 0.812);
+    transition: 0.3s;
+    font-family: "Alexandria", sans-serif;
+}
+
+.login1 .container nav ul a.active,
+.login1 .container nav ul a:hover {
+    color: var(--main-color-alt);
+    background-color: var(--main-color);
+    border-radius: 60%;
+}
+
+.login1 .container .social {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.login1 .container .social i {
+    margin: 5px;
+    position: relative;
+    right: 10px;
+    font-size: 17px;
+    background-color: var(--main-color);
+    display: flex;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.login1 .container .social i:hover {
+    background-color: bisque;
+    font-size: 35px;
+}
+
+/*login1 نهاية القسم الاول من صفحة الرئيسية ضمن كلاس  */
+
+
+/*hero بداية القسم الثاني من صفحة الرئيسية ضمن كلاس  */
+.hero {
+    background-color: #eed5bf;
+    background-image: url('../imagess/glo.jpg');
+    background-repeat: no-repeat;
+
+}
+
+/* .hero .container .hero-img img {
+    width: 500px;
+} */
+.hero .container .hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.hero .container .hero-info .hero-title {
+    font-family: "Qwitcher Grypen", cursive;
+    color: rgb(144, 81, 81);
+    align-self: center;
+}
+
+.hero .container .hero-info h2 {
+    font-family: "Marhey", sans-serif;
+    color: rgba(165, 42, 42, 0.663);
+    align-self: start;
+}
+
+.hero .container .hero-info p {
+    font-family: "Marhey", sans-serif;
+    align-self: start;
+    line-height: 1.7;
+
+}
+
+/* بداية التحديد على حسب مقاسات الشاشات */
+
+/* تابلت */
+@media (min-width:576px) and (max-width:768px) {
+    .hero {
+        background-size: 100% 420px;
+        height: 380px;
+    }
+
+    /* تحديد ايقونة الصورة */
+    .hero .container .hero-info .hero-title {
+        position: relative;
+        left: 210px;
+        font-size: 70px;
+        top: 20px;
+        left: 140px;
+        /* color: white; */
+    }
+
+    /* تحديد العنوان جنب  ايقونة الصورة */
+    .hero .container .hero-info h2 {
+        font-size: 16px;
+        position: relative;
+        bottom: 5px;
+
+    }
+
+    /* تحديد الجملة التانية جنب  ايقونة الصورة */
+
+    .hero .container .hero-info p {
+        width: 40%;
+        position: relative;
+        top: 30px;
+        font-size: 14px;
+        right: 10px;
+
+    }
+
+    /* تحديد الجملة الثالثة جنب  ايقونة الصورة */
+}
+
+/* جوال   */
+@media (min-width:768px) and (max-width:991px) {
+    .hero {
+        background-size: 100% 300px;
+    }
+
+    /* تحديد ايقونة الصورة */
+    .hero .container .hero-info .hero-title {
+        position: relative;
+        font-size: 90px;
+        bottom: 20px;
+        left: 280px;
+        /* color: blueviolet; */
+    }
+
+    /* تحديد العنوان جنب  ايقونة الصورة */
+    .hero .container .hero-info h2 {
+        font-size: 20px;
+        position: relative;
+        bottom: 50px;
+        right: 50px;
+
+
+    }
+
+    /* تحديد الجملة التانية جنب  ايقونة الصورة */
+
+    .hero .container .hero-info p {
+        width: 24%;
+        position: relative;
+        bottom: 20px;
+        font-size: 15px;
+        right: 65px;
+    }
+
+    /* تحديد الجملة الثالثة جنب  ايقونة الصورة */
+}
+
+/* ايباد */
+@media (min-width:1025px) and (max-width:1280px) {
+    .hero {
+        background-size: 100% 350px;
+    }
+
+    /* تحديد ايقونة الصورة */
+
+    .hero .container .hero-info .hero-title {
+        position: relative;
+        left: 330px;
+        font-size: 100px;
+        bottom: 20px;
+        /* color: rgb(135, 47, 47); */
+
+
+    }
+
+    /* تزبيط عنوان جنب  ايقونة الصورة */
+    .hero .container .hero-info h2 {
+        font-size: 21px;
+        position: relative;
+        bottom: 80px;
+
+    }
+
+    /* تحديد الجملة التانية جنب  ايقونة الصورة */
+
+    .hero .container .hero-info p {
+        width: 25%;
+        position: relative;
+        bottom: 50px;
+        font-size: 15px;
+        right: 30px;
+    }
+
+    /* تحديد القائمة الثالثة جنب  ايقونة الصورة */
+}
+
+/* لابتوب  */
+@media (min-width:1281px) {
+    .hero {
+        background-size: 100% 350px;
+    }
+
+    /* تحديد ايقونة الصورة */
+
+    .hero .container .hero-info .hero-title {
+        position: relative;
+        left: 410px;
+        font-size: 110px;
+        bottom: 20px;
+        /* color: red; */
+    }
+
+    /* تزبيط عنوان جنب  ايقونة الصورة */
+    .hero .container .hero-info h2 {
+        font-size: 21px;
+        position: relative;
+        bottom: 80px;
+
+    }
+
+    /* تحديد الجملة التانية جنب  ايقونة الصورة */
+
+    .hero .container .hero-info p {
+        width: 20%;
+        position: relative;
+        bottom: 50px;
+        font-size: 15px;
+        right: 30px;
+    }
+
+    /* تحديد القائمة الثالثة جنب  ايقونة الصورة */
+
+}
+
+/* نهاية التحديد على حسب مقاسات الشاشات */
+
+/*hero نهاية القسم الثاني من صفحة الرئيسية ضمن كلاس  */
+
+
+/*services بداية القسم الثالث من صفحة الرئيسية ضمن كلاس  */
+.services {
+    background-color: #eed5bf;
+    padding: 40px 0;
+
+}
+
+.services .container .section-title {
+    text-align: center;
+    font-family: "Marhey", sans-serif;
+    color: rgba(165, 42, 42, 0.663);
+    font-size: 37px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.services .container .section-desc {
+    text-align: center;
+    line-height: 1.8;
+    font-size: 26px;
+    margin-bottom: 30px;
+    padding: 10px 0 0 20px;
+    /*وضع مسافة امان بين العنوان الرئيسي والنص نفسه وايضا مسافة امان بين نص والعنوان الثاني  */
+}
+
+/* .services .container .services {
+    display: flex;
+} */
+
+.services .container .all-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 69px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    bottom: 20px;
+    transition: 1.5;
+    padding: 20px 0;
+    /* وضع مسافة امان بين العنوان الرئيسي والنص */
+}
+
+.services .container .all-services .service:hover {
+
+    transform: translatey(-10px);
+}
+
+.services .container .all-services .service {
+    position: relative;
+    top: 20px;
+    background-color: rgba(140, 81, 81, 0.373);
+    border-radius: 50%;
+    height: 140%;
+    border: 4px solid rgb(102, 79, 79);
+    transition: 1.5;
+    box-shadow: 0 0 10px white;
+
+}
+
+.services .container .all-services h3 {
+    font-family: "Playpen Sans Arabic", cursive;
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    color: rgb(87, 42, 42);
+}
+
+.services .container .all-services h3:hover {
+    color: black;
+}
+
+.services .container .all-services img {
+    width: 160px;
+    height: 140px;
+    position: relative;
+    top: 20px;
+}
+
+/* بداية التحديد على حسب مقاسات الشاشات */
+
+/* بداية تحديد على مقاس شاشة  تابلت*/
+@media (min-width:576px) and (max-width:768px) {
+    .services .container .section-desc {
+        font-size: 15px;
+        padding: 0;
+    }
+
+    /* تحديد حجم خط النص */
+    .services .container .all-services .service {
+        height: 130%;
+    }
+
+    /* تحديد ارتفاع الدائرة */
+}
+
+/* نهاية تحديد على مقاس شاشة  تابلت*/
+
+/*بداية تحديد على مقاس شاشة الجوال  */
+@media (min-width:768px) and (max-width:991px) {
+    .services .container .section-desc {
+        font-size: 25px;
+        padding: 0;
+    }
+
+    /* تحديد حجم خط النص */
+    .services .container .all-services h3 {
+        position: relative;
+        top: 60px;
+        font-size: 29px;
+    }
+
+    /*  تحديد حجم العناوين لكل دائرة*/
+
+    .services .container .all-services {
+        gap: 200px;
+    }
+
+    /* تحديد المسافة بين الدوائر */
+
+    .services .container .all-services .service {
+        height: 150%;
+        width: 380px;
+        position: relative;
+
+    }
+
+    /* تحديد ارتفاع الدائرة */
+    .services .container .all-services .s {
+        position: relative;
+        right: 30px;
+    }
+
+    /* اقتراب اول 2 دائرة من بعض */
+
+    .services .container .all-services .c {
+        position: relative;
+        left: 30px;
+    }
+
+    /* اقتراب ثاني 2 دائرة من بعض */
+
+    .services .container .all-services img {
+        width: 270px;
+        height: 220px;
+        position: relative;
+        top: 50px;
+    }
+
+    /* تحديد حجم الصور ضمن دوائر */
+
+}
+
+/* نهاية تحديد على مقاس شاشة الجوال */
+
+/* بداية تحديد على مقاس شاشة  الايباد*/
+@media (min-width:1025px) and (max-width:1280px) {
+    .services .container .all-services .service {
+        width: 230px;
+    }
+
+    /* تحديد ارتفاع الدائرة */
+    .services .container .all-services {
+        gap: 45px;
+    }
+
+    /* تحديد مسافة بين الدوائر */
+}
+
+/* نهاية تحديد على مقاس شاشة  الايباد*/
+
+/* نهاية التحديد على حسب مقاسات الشاشات */
+
+/*services نهاية القسم الثالث من صفحة الرئيسية ضمن كلاس  */
+
+/*Products بداية القسم الرابع من صفحة الرئيسية ضمن كلاس  */
+.Products {
+    background-color: #eed5bf;
+    padding: 10px 0;
+
+}
+
+.Productts {
+    padding: 90px 0 20px 0;
+}
+
+/* كلاس مخصص لوضع مسافة للعنوان الرئيسي مع ترك فاصل مع العنوان الثاني */
+.Products .container .title {
+    display: flex;
+    justify-content: center;
+    font-family: "Marhey", sans-serif;
+    color: rgba(165, 42, 42, 0.663);
+    font-size: 40px;
+    padding: 30px 0;
+    position: relative;
+    top: 20px;
+}
+
+.Products .container .address {
+    color: rgb(87, 42, 42);
+    font-family: "Playpen Sans Arabic", cursive;
+    font-size: 25px;
+    padding: 30px 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.Products .container .all-Products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 65px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.Products .container .all-Products .Product {
+    background-color: rgba(218, 204, 215, 0.347);
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5;
+    position: relative;
+    box-shadow: 10px 10px 10px  rgba(19, 19, 19, 0.347);
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.Products .container .all-Products .Product:hover {
+    scale: 1.1;
+    transform: translate(2px);
+}
+
+/* بداية الحركة أضافية  عمل ستارة للقوائم الخاصة بالمنتجات*/
+.Products .container .all-Products .Product .teatt {
+    background-color: rgba(0, 0, 0, 0.604);
+    color: white;
+    padding: 15px 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: 4.5s;
+    font-family: "Playpen Sans Arabic", cursive;
+}
+
+.Products .container .all-Products .Product:hover .teatt {
+    right: 100%;
+}
+
+/* نهاية الحركة أضافية  عمل ستارة للقوائم الخاصة بالمنتجات*/
+
+/*" بداية الحركة الاضافية للمنتج "الاكثر مبيعا على المنتج */
+/* .Products .container .all-Products .Product:nth-child(2)::before {
+    content: "الاكثر مبيعا";
+    color: white;
+    background-color: rgba(165, 42, 42, 0.663);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    bottom: 440px;
+    right: 90px;
+    transform: rotate(-45deg);
+    z-index: 1;
+} */
+
+/* " نهاية الحركة الاضافية للمنتج "الاكثر مبيعا على المنتج  */
+
+.Products .container .all-Products .Product img {
+    width: 100%;
+    height: 200px;
+}
+
+.Products .container .all-Products .Product .Products-title {
+    color: rgb(87, 42, 42);
+    font-family: "Playpen Sans Arabic", cursive;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.Products .container .all-Products .Product p {
+    line-height: 1.3;
+    margin-bottom: 8px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 700;
+}
+
+.Products .container .all-Products .Product .Products-price {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 8px;
+    font-size: 19px;
+    color: rgb(113, 31, 31);
+    font-family: "Playpen Sans Arabic", cursive;
+    font-weight: 500;
+}
+
+.Products .container .all-Products .Product hr {
+    width: 80%;
+    transform: translatex(-10%);
+    margin-bottom: 15px;
+}
+
+.Products .container .all-Products .Product .Products-like {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 15px;
+
+}
+
+.Products .container .all-Products .Product .Products-like :hover {
+    color: rgb(239, 114, 114);
+}
+
+.Products .container .all-Products .Product .basket {
+    background-color: rgb(226, 158, 135);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 80%;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 0;
+    /* تعليمات الانمي ميشن لزر اضافة الى السلة  */
+    animation-name: inme;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+}
+
+/*  الانمي ميشن لزر اضافة الى السلة  */
+@keyframes inme {
+    to {
+
+        background-color: rgb(155, 69, 85);
+    }
+}
+
+/*  بداية عمل الحركة الاضافية اعطاء لون خاص عند الضغط على زر اضافة الى السلة  من جهة اليسار*/
+.Products .container .all-Products .Product .basket::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(89, 19, 19);
+    transition: 0.5;
+    z-index: -1;
+}
+
+.Products .container .all-Products .Product .basket:hover::before {
+    width: 50%;
+
+}
+
+/*  نهاية عمل الحركة الاضافية اعطاء لون خاص عند الضغط على زر اضافة الى السلة  من جهة اليسار*/
+
+/*  بداية عمل الحركة الاضافية اعطاء لون خاص عند الضغط على زر اضافة الى السلة  من جهة اليمين*/
+.Products .container .all-Products .Product .basket::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: rgb(89, 19, 19);
+    transition: 0.5;
+    z-index: -1;
+}
+
+.Products .container .all-Products .Product .basket:hover::after {
+    width: 50%;
+}
+
+/*  نهاية عمل الحركة الاضافية اعطاء لون خاص عند الضغط على زر اضافة الى السلة  من جهة اليمين*/
+
+/* بداية التحديد على حسب مقاسات الشاشات */
+
+/*بداية تحديد على مقاس شاشة تابلت  */
+@media (min-width:576px) and (max-width:768px) {
+    .Products .container .address {
+        font-size: 20px;
+    }
+
+    /* تحديد مقاس العنوان الفرعي*/
+    .Products .container .all-Products {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 56px;
+    }
+
+    /* تحديد حجم القوائم والمسافة بينهم */
+    .Products .container .all-Products .Product img {
+        width: 100%;
+        height: 150px;
+    }
+
+    /* تحديد حجم الصورة */
+    .Products .container .all-Products .Product .Products-title {
+        font-size: 18px;
+    }
+
+    /*  تحديد حجم العنوان*/
+    .Products .container .all-Products .Product p {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    /* تحديد حجم خط الوصف */
+    .Products .container .all-Products .Product .Products-price {
+        font-size: 15px;
+        padding-top: 12px;
+    }
+
+    /* تحديد نص السعر */
+
+    .Products .container .all-Products .Product .basket {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    /* تحديد حجم مربع السلة */
+}
+
+/*نهاية تحديد على مقاس شاشة تابلت  */
+
+/*بداية تحديد على مقاس شاشة جوال  */
+@media (min-width:768px) and (max-width:991px) {
+    .Products .container .all-Products {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 60px;
+        padding: 30px;
+    }
+
+    /* تحديد حجم القوائم والمسافة بينهم */
+    .Products .container .all-Products .Product .Products-title {
+        font-size: 22px;
+    }
+
+    /*  تحديد حجم العنوان*/
+    .Products .container .all-Products .Product p {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
+    /* تحديد حجم خط الوصف */
+    .Products .container .all-Products .Product .Products-price {
+        padding-top: 10px;
+        font-size: 24px;
+    }
+
+    /* تحديد نص السعر */
+    .Products .container .all-Products .Product .Products-like {
+        font-size: 28px;
+
+    }
+
+    /* تحديد حجم  المفضلة */
+
+    .Products .container .all-Products .Product .basket {
+        width: 80%;
+        font-size: 26px;
+    }
+
+    /* تحديد حجم مربع السلة */
+}
+
+/*نهاية تحديد على مقاس شاشة جوال  */
+
+/* بداية تحديد على مقاس شاشة  ايباد */
+@media (min-width:1025px) and (max-width:1280px) {
+    .Products .container .all-Products {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 46px;
+    }
+
+    /* تحديد حجم القوائم والمسافة بينهم */
+    .Products .container .all-Products .Product .Products-title {
+        font-size: 16px;
+    }
+
+    /*  تحديد حجم العنوان*/
+    .Products .container .all-Products .Product p {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    /* تحديد حجم خط الوصف */
+    .Products .container .all-Products .Product .Products-price {
+        font-size: 17px;
+    }
+
+    /* تحديد نص السعر */
+    .Products .container .all-Products .Product .basket {
+        width: 80%;
+        font-size: 19px;
+    }
+
+    /* تحديد حجم مربع السلة */
+}
+
+/* نهاية تحديد على مقاس شاشة  ايباد*/
+
+/* تهاية التحديد على حسب مقاسات الشاشات */
+
+/*Products نهاية القسم الرابع من الصفحة الرئيسية ضمن كلاس  */
+
+
+/*our-team بداية القسم الخامس من الصفحة الرئيسية ضمن كلاس  */
+
+.our-team {
+    background-color: #eed5bf;
+    padding: 70px 0;
+}
+
+.our-team .container h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Marhey", sans-serif;
+    color: rgba(165, 42, 42, 0.663);
+    font-size: 38px;
+
+}
+
+.our-team .container .teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 85px;
+    /* text-align: center; */
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.our-team .container .teams .box-team {
+    background-color: rgba(246, 227, 220, 0.488);
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+    transition: 1.5s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.our-team .container .teams .box-team:hover {
+    scale: 1.1;
+    transform: translate(-10px);
+}
+
+/* بداية الحركة الاضافية على المربع انشاء خط من جهة اليمين */
+.our-team .container .teams .box-team::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 0;
+    background-color: var(--main-color);
+    transition: 0.5s;
+}
+
+/* بداية الحركة الاضافية على المربع انشاء خط من جهة اليسار */
+.our-team .container .teams .box-team::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 4px;
+    height: 0;
+    background-color: var(--main-color);
+    transition: 0.5s;
+}
+
+/*   نهاية الحركة الاضافية على المربع انشاء خط من جهة اليمين  واليسار*/
+.our-team .container .teams .box-team:hover::before,
+.our-team .container .teams .box-team:hover::after {
+    border-radius: none;
+    height: 100%;
+}
+
+.our-team .container .teams .box-team .img-social {
+    display: flex;
+}
+
+.our-team .container .teams .box-team .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.our-team .container .teams .box-team .social i {
+    background-color: #793a3263;
+    color: black;
+    border-radius: 60%;
+    font-size: 25px;
+    transition: 0.3s;
+    position: relative;
+    right: 4px;
+}
+
+.our-team .container .teams .box-team .social i:hover {
+    color: var(--main-color-alt);
+    background-color: var(--main-color);
+    border-radius: 90%;
+    font-size: 32px;
+}
+
+.our-team .container .teams .box-team .img-social img {
+    width: 86%;
+    height: 190px;
+    position: relative;
+    right: 9px;
+    top: 4px;
+    border-radius: 30px;
+}
+
+.our-team .container .teams .box-team .nema-team {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 20px;
+    color: var(--main-color);
+    font-family: "Playpen Sans Arabic", cursive;
+}
+
+/* بداية التحديد على حسب مقاسات الشاشات */
+/*بداية تحديد على مقاس شاشة تابلت  */
+@media (min-width:576px) and (max-width:768px) {
+    .our-team .container .teams {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        padding: 0 65px 0 0;
+        position: relative;
+        left: 30px;
+    }
+
+    .our-team .container .teams .box-team .img-social img {
+        width: 85%;
+        position: relative;
+        right: 16px;
+    }
+
+    .our-team .container .teams .box-team .social i {
+        font-size: 30px;
+        position: relative;
+        right: 8px;
+    }
+}
+
+/*نهاية تحديد على مقاس شاشة تابلت  */
+
+/*بداية تحديد على مقاس شاشة ايباد  */
+@media (min-width:1025px) and (max-width:1280px) {
+    .our-team .container .teams {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        padding: 0 65px 0 0;
+        position: relative;
+        left: 30px;
+    }
+
+    .our-team .container .teams .box-team .img-social img {
+        width: 85%;
+        position: relative;
+        right: 16px;
+    }
+
+    .our-team .container .teams .box-team .social i {
+        font-size: 30px;
+        position: relative;
+        right: 8px;
+    }
+}
+
+/*نهاية تحديد على مقاس شاشة ايباد  */
+
+/*بداية تحديد على مقاس شاشة لابتوب  */
+@media (min-width:1281px) {
+    .our-team .container .teams {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 88px;
+        padding: 0 65px 0 0;
+        position: relative;
+        left: 30px;
+    }
+
+    .our-team .container .teams .box-team .img-social img {
+        width: 88%;
+        position: relative;
+        right: 16px;
+    }
+
+    .our-team .container .teams .box-team .social i {
+        font-size: 30px;
+        position: relative;
+        right: 8px;
+    }
+
+}
+
+/*نهاية تحديد على مقاس شاشة لابتوب  */
+
+/* نهاية التحديد على حسب مقاسات الشاشات */
+
+/*our-team نهاية القسم الخامس من الصفحة الرئيسية ضمن كلاس  */
+
+/*.testimonials بداية القسم السادس من الصفحة الرئيسية ضمن كلاس  */
+.testimonials {
+    background-color: #eed5bf;
+    padding: 30px 0 60px 0;
+}
+
+.testimonials .container h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Marhey", sans-serif;
+    color: rgba(165, 42, 42, 0.663);
+    font-size: 38px;
+}
+
+.testimonials .container .all-testimonials {
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 80px;
+}
+
+.testimonials .container .all-testimonials .testimonial {
+    background-color: rgba(246, 227, 220, 0.488);
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.testimonials .container .all-testimonials .testimonial:hover {
+    border: 3px solid var(--main-color);
+    transform: translatey(-5px);
+}
+
+.testimonials .container .all-testimonials .testimonial img {
+    position: absolute;
+    width: 90px;
+    height: 100px;
+    border-radius: 50%;
+    left: -6px;
+    top: -45px;
+    border: 5px solid rgba(246, 227, 220, 0.488);
+
+}
+
+.testimonials .container .all-testimonials .testimonial h3 {
+    color: rgb(87, 42, 42);
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "Playpen Sans Arabic", cursive;
+}
+
+.testimonials .container .all-testimonials .testimonial .testimonial-type {
+    margin-bottom: 15px;
+    color: var(--main-color);
+}
+
+.testimonials .container .all-testimonials .testimonial .stars {
+    color: rgb(252, 200, 0);
+    text-align: center;
+}
+
+.testimonials .container .all-testimonials .testimonial .review {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/*.testimonials نهاية القسم السادس من الصفحة الرئيسية ضمن كلاس  */
+
+/*logon بداية القسم السابع من الصفحة الرئيسية ضمن كلاس  */
+.logon {
+    background-color: #7a4e3d93;
+    border-top: 2px solid var(--main-color);
+    height: 230px;
+    /* padding: 20px 0; */
+
+}
+
+.logon .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 30px;
+    gap: 20px;
+}
+
+/* .logon .container .end .v {
+    position: relative;
+    right: 7px;
+    bottom: 30px;
+} */
+
+.logon .container .end h2 {
+    color: rgba(255, 255, 255, 0.722);
+    /* font-family: "Marhey", sans-serif; */
+    font-size: 20px;
+    position: relative;
+    align-items: center;
+    /* bottom: 20px; */
+}
+
+.logon .container .end p {
+    font-size: 15px;
+    position: relative;
+    bottom: 20px;
+    line-height: 1.5;
+    font-family: "Alexandria", sans-serif;
+}
+
+.logon .container nav ol h2 {
+    position: relative;
+    left: 11px;
+    bottom: 15px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.722);
+    /* font-family: "Marhey", sans-serif; */
+
+}
+
+.logon .container nav ol a {
+    color: black;
+    font-family: "Alexandria", sans-serif;
+    cursor: pointer;
+    /* display: block; */
+    transition: 0.5s;
+}
+
+.logon .container nav ol a:hover {
+    color: var(--main-color);
+    padding-right: 10px;
+    font-weight: bold;
+
+}
+
+.logon .container .social h2 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.722);
+    /* font-family: "Marhey", sans-serif; */
+}
+
+.logon .container .social .name {
+    color: rgb(124, 13, 13);
+    font-family: "Amiri", serif;
+    font-size: 16px;
+
+}
+
+.logon hr {
+    position: relative;
+    top: 35px;
+}
+
+.logon .container .sections h2 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.722);
+    padding: 10px;
+}
+
+.logon .container .sections .letter form {
+    display: grid;
+    flex-direction: column;
+}
+
+.logon .container .sections .letter form input[ type="text"],
+.logon .container .sections .letter form input[ type="email"] {
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    caret-color: var(--main-color);
+    border: none;
+}
+
+.logon .container .sections .letter form input[ type="text"]:focus,
+.logon .container .sections .letter form input[ type="email"]:focus {
+    outline: none;
+
+}
+
+.logon .container .sections .letter form input[ type="submit"] {
+    background-color: rgb(148, 95, 95);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.logon .container .sections .letter form input[ type="submit"]:hover {
+    background-color: rgb(89, 19, 19);
+    border: 1px solid white;
+}
+
+/* بداية التحديد على حسب مقاسات الشاشات */
+
+/*بداية تحديد على مقاس شاشة تابلت  */
+@media (min-width:576px) and (max-width:768px) {
+    .logon .container .end h2 {
+        position: relative;
+        bottom: 13px;
+        left: 2px;
+    }
+
+    .logon .container .end p {
+        width: 80%;
+        position: relative;
+        bottom: 13px;
+    }
+
+    .logon .container nav ol h2 {
+        position: relative;
+        left: 10px;
+        bottom: 30px;
+        font-size: 14px;
+
+    }
+
+    .logon .container nav ol li {
+        width: 150%;
+        font-size: 15px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .logon .container .social {
+        position: relative;
+        right: 30px;
+        bottom: 30px;
+    }
+}
+
+/*نهاية تحديد على مقاس شاشة تابلت  */
+
+/*بداية تحديد على مقاس شاشة جوال  */
+@media (min-width:768px) and (max-width:991px) {}
+
+/*بداية تحديد على مقاس شاشة جوال  */
+
+/*بداية تحديد على مقاس شاشة ايباد  */
+@media (min-width:1025px) and (max-width:1280px) {
+    .logon .container .end h2 {
+        position: relative;
+        bottom: 19px;
+    }
+
+    .logon .container .end p {
+        width: 40%;
+
+    }
+
+    .logon .container nav ol h2 {
+        position: relative;
+        left: 300px;
+        bottom: 30px;
+
+    }
+
+    .logon .container nav ol li {
+        position: relative;
+        left: 280px;
+        width: 188%;
+        font-size: 15px;
+        bottom: 15px;
+        line-height: 1.5;
+
+    }
+
+    .logon .container .social {
+        position: relative;
+        left: 140px;
+        bottom: 10px;
+
+    }
+}
+
+/*نهاية تحديد على مقاس شاشة ايباد  */
+
+/*بداية تحديد على مقاس شاشة لابتوب  */
+@media (min-width:1281px) {
+    .logon .container .end p {
+        width: 50%;
+        position: relative;
+        bottom: 10px;
+        line-height: 1.9;
+
+    }
+
+    .logon .container nav ol h2 {
+        position: relative;
+        left: 210px;
+        bottom: 15px;
+
+    }
+
+    .logon .container nav ol li {
+        position: relative;
+        left: 200px;
+        bottom: 5px;
+        width: 200%;
+        font-size: 15px;
+        line-height: 2;
+
+    }
+
+    .logon .container .social {
+        position: relative;
+        left: 50px;
+        bottom: 5px;
+
+    }
+
+    .logon .container .sections h2 {
+        position: relative;
+        bottom: 10px;
+    }
+
+    .logon .container .sections .letter form input[ type="text"],
+    .logon .container .sections .letter form input[ type="email"],
+    .logon .container .sections .letter form input[ type="submit"] {
+        position: relative;
+        bottom: 10px;
+    }
+}
+
+/*نهاية تحديد على مقاس شاشة لابتوب  */
+
+/* نهاية التحديد على حسب مقاسات الشاشات */
+
+/*logon نهاية  القسم السادس من صفحة الرئيسية ضمن كلاس  */
+
+/*  بداية ايقونة الواتس  */
+.btn-whatspp {
+    position: fixed;
+    font-size: 40px;
+    bottom: 30px;
+    left: 30px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    box-shadow: 0 0 3px white;
+}
+
+.btn-whatspp:hover {
+    scale: 1.1;
+    /* transform: translatey(-5px); */
+}
+
+/* نهاية ايقونة الواتس  */
+
+/* نهاية الصفحة الاول  */
+
+/* بداية الصفحة التالية */
+.log .container nav {
+    position: relative;
+    top: 20px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.log .container nav i:hover+ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    align-items: start;
+}
+
+.log .container nav ul a {
+    display: block;
+    padding: 20px 10px;
+    font-size: 16px;
+    font-weight: 20px;
+    color: rgb(208, 59, 9);
+    transition: 0.3s;
+}
+
+.log .container nav ul a.active,
+.log .container nav ul a:hover {
+    color: var(--main-color-alt);
+    background-color: var(--main-color);
+    border-radius: 60%;
+}
+
+@media (max-width:768px) {
+    .log .container nav ul {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    .log .container nav ul {
+        display: none;
+    }
+
+}
+
+/* قسم الجافا سكربت */
+.mobile-navl {
+    display: flex ! important;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #eee;
+    width: 100%;
+    transition: 0.3s;
+
+}
+
+/* نهاية الصفحة التالية */

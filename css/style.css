@@ -1,0 +1,274 @@
+* {
+    margin: 1;
+    padding: 1;
+    /* box-sizing: border-box; */
+}
+
+/*  هدول تغير الاحجمام لجميع الصفحات */
+.glow_beauty_html {
+    background: rgba(216, 112, 190, 0.156) url('../imagess/tast.png') no-repeat;
+}
+
+/* صفحة تسجيل الدخول لون+ صورة الغلاف */
+.style_from {
+    margin-left: 800px;
+    margin-top: auto;
+    text-align: center;
+    font-size: x-large;
+}
+
+/*  مقاسات وحجم صفحة تسجيل الدخول*/
+.Welcome_glow_original {
+    color: rgb(240, 25, 143);
+    text-transform: capitalize;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 600px;
+    font-size: 3em;
+    position: sticky;
+    top: 0px;
+}
+
+/*   اسم الترحيب بصفحة تسجيل الدخول مع لونه ومقاسه ونوع الخط*/
+h2 {
+    color: rgba(128, 0, 75, 0.637);
+    font-family: "Tajawal", sans-serif;
+    font-weight: 600px;
+    font-size: 2em;
+}
+
+/*  االعناوين ضمن الصفحة الرئيسة مع تحديد الوانهم ومقاساتهم ونوع الخط*/
+h2:hover {
+    color: rgb(70, 43, 226);
+}
+
+/*    تاثيرات  لنص العناوين ضمن الصفحة الرئيسية*/
+h1 {
+    /* color: rgba(255, 0, 217, 0.519); */
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Eagle Lake", serif;
+}
+
+/* العنوان لصفحة الرئيسية  مع تحديد لونه ومقاسه ونوع الخط*/
+.glow_orinal_1 {
+    color: white;
+    background-color: rgba(137, 43, 226, 0.21);
+    font-size: 18px;
+    width: auto;
+    position: sticky;
+    top: 0px;
+}
+
+/*  لوحة الصفحة الرئيسية  مع تحديد لون و المقاس*/
+.text_glow {
+    word-spacing: 100px;
+}
+
+/* تعليمة ترك مسافة بين الكلمات في لوحة القائمة بالصفحة الرئيسية */
+ul {
+    list-style-position: outside;
+    list-style-type: square;
+    color: rgb(255, 255, 0);
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+/* شكل ولون الاشكال التي بجانب القائمة الرئيسية */
+ul:hover {
+    text-shadow: 20px 20px 20px rgb(255, 0, 251);
+}
+
+/*  تاثيرات النص للعناوين لوحة ضمن الصفحة الرئيسية*/
+table {
+    border: 5px blueviolet;
+    width: 500px;
+    border-spacing: 15px;
+    color: brown;
+    background-color: rgba(46, 43, 226, 0.141);
+    border-radius: 30px;
+    border-style:hidden;
+    text-align: center;
+}
+
+td {
+    background-color: rgba(255, 127, 255, 0.149);
+    color: rgba(0, 0, 255, 0.247);
+    padding: 8px;
+    border: 5px solid;
+    /* vertical-align: bottom; */
+}
+
+th {
+    border: 5px rgba(0, 0, 139, 0.09) solid;
+}
+
+/* تنسيقات الجدول ضمن الصفحة الرئيسية */
+.mme {
+    background-color: rgba(247, 255, 205, 0.508);
+}
+
+/* تلوين صفحة الميك اب */
+.tastst {
+
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 150px;
+    position: relative; */
+    /* right: 50px; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* افقي */
+    align-items: end;
+
+
+
+
+
+}
+
+/*  و وضع القوائم بالصفحة بالنص */
+.back {
+    color: rgba(137, 43, 226, 0.685);
+}
+
+/*  الوان الوصف ضمن صفحة الميك اب*/
+.makupp,
+.parfanp,
+.carem {
+    text-align: center;
+    background-color: rgba(236, 205, 255, 0.504);
+    position: relative;
+    left: 5px;
+    /* top: 10px; */
+    border-radius: 40px;
+    width: 15%;
+    line-height: 150%;
+    box-sizing: border-box;
+    font-family: "Playpen Sans Arabic", cursive;
+    flex-grow: 3;
+
+    /* float: right; */
+}
+
+/*  القروب الخاص بالقوائم يضم مكان النص و لون القوائم والاحجام والارتفاع ونوع الخط*/
+.clena {
+    clear: both;
+}
+
+/*  كلاس تنظيف كل الكلاسات لحتى يكونوا القوائم جنب  بعض */
+.parfanp:hover {
+    text-shadow: 20px 20px 20px rgb(179, 0, 255);
+    background-color: rgba(0, 0, 0, 0.136);
+}
+
+/* تاثير النص اول ضمن قائمة بصفحة الميك اب*/
+.makupp:hover {
+    text-shadow: 20px 20px 20px rgb(179, 0, 255);
+    background-color: rgba(0, 0, 0, 0.136);
+}
+
+/* تاثير النص ثاني ضمن  قائمة بصفحة الميك اب*/
+.carem:hover {
+    text-shadow: 20px 20px 20px rgb(179, 0, 255);
+    background-color: rgba(0, 0, 0, 0.136);
+}
+
+/* تاثير النص ثالث ضمن قائمة بصفحة الميك اب */
+.name {
+    font-family: "Playpen Sans Arabic", cursive;
+    line-height: 150%;
+}
+
+/* نوع الخط وارتفاع عناوين القوائم بصفحة الميك اب */
+
+
+/*  الموقع */
+.login {
+    font-family: "Lalezar", sans-serif;
+    display: list-item;
+    display: flex;
+    gap: 100px;
+    font-size: x-large;
+    color: rgba(222, 192, 135, 0.704);
+    position: relative;
+    right: 50px;
+    top: 45px;
+}
+
+.icon {
+    display: flex;
+    gap: 200px;
+}
+
+.address {
+    color: brown;
+    text-align: center;
+    font-size: 45px;
+    font-family: "Marhey", sans-serif;
+    position: relative;
+    bottom: 40px;
+}
+
+.photos {
+    display: flex;
+    gap: 90px;
+    margin-right: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.photos:hover {
+    transform: rotatey(180deg);
+}
+
+.carem1 {
+    position: relative;
+    /* left: 20px; */
+
+}
+
+.photoss {
+    display: flex;
+    gap: 250px;
+    justify-content: space-evenly;
+    margin-right: 110px;
+    cursor: pointer;
+    margin-top: 200px;
+}
+
+.glow12 {
+    background-color: rgba(249, 241, 235, 0.2);
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    left: 25px;
+    transition-duration: 3s;
+    transform-style: preserve-3d;
+}
+
+.glow12:hover {
+
+    border-radius: 100px;
+    transform: scalex(-1);
+    background-color: rgba(226, 179, 245, 0.985);
+
+}
+.text {
+    font-family: "Marhey", sans-serif;
+    margin-right: 90px;
+    position: relative;
+    top: 40px;
+    left: 150px;
+    text-align: center;
+}
+
+.text:hover {
+
+    text-shadow: 20px 20px 20px coral;
+}

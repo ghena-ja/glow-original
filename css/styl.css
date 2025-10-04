@@ -605,7 +605,7 @@ body {
     border-radius: 10px;
     transition: 0.5;
     position: relative;
-    box-shadow: 10px 10px 10px  rgba(19, 19, 19, 0.347);
+    box-shadow: 10px 10px 10px rgba(19, 19, 19, 0.347);
     overflow: hidden;
     cursor: pointer;
     z-index: 0;
@@ -1475,14 +1475,24 @@ body {
 /* نهاية الصفحة الاول  */
 
 /* بداية الصفحة التالية */
-.log .container nav {
+.top_header {
+    background-color: #7a4e3d93;
+    border: 2px solid rgba(0, 0, 0, 0);
+    /* height: 80px; */
+}
+.left_header a{
+    margin-left: 30px;
+    color: black;
+}
+
+/* .log .container nav {
     position: relative;
     top: 20px;
     right: 15px;
     cursor: pointer;
-}
+} */
 
-.log .container nav i:hover+ul {
+/* .log .container nav i:hover+ul {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -1522,7 +1532,7 @@ body {
 }
 
 /* قسم الجافا سكربت */
-.mobile-navl {
+/* .mobile-navl {
     display: flex ! important;
     flex-direction: column;
     position: absolute;
@@ -1532,6 +1542,6 @@ body {
     width: 100%;
     transition: 0.3s;
 
-}
+}  */
 
 /* نهاية الصفحة التالية */

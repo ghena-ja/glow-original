@@ -1481,8 +1481,9 @@ body {
     /* height: 80px; */
 }
 .left_header a{
-    margin-left: 30px;
+    margin-left: 9px;
     color: black;
+    margin-right: 30px;
 }
 
 /* .log .container nav {

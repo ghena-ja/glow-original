@@ -55,11 +55,14 @@ a {
 
 body {
     font-family: "Noto Sans Arabic", sans-serif;
-    background: linear-gradient(135deg, #F5E6D3 0%, #FDE2E4 100%);
-    /* height: 3500px; */
+    background: linear-gradient(135deg, #F5E6D3);
+    height: 6500px;
     /* شيلها لقدام */
 }
-
+button{
+    /* background-color: rgb(226, 158, 135) !important; */
+    /* border:  none !important; */
+}
 .container {
     padding-left: 15px;
     padding-right: 15px;
@@ -67,20 +70,20 @@ body {
     margin-right: auto;
 }
 
-/*تابلت  */
-@media (min-width:576px) and (max-width:768px) {
+/*الجوال  */
+@media (max-width:768px) {
     .container {
-        width: 550px;
+        width: 100%;
     }
 
     /* تحديد مكان الشاشة بشكل عام */
 }
 
-/* الجوال */
+/* التابلت */
 @media (min-width:768px) and (max-width:991px) {
     .container {
-        /* width: 750px; */
-        width: 100%;
+        width: 750px;
+        
     }
 
     /* تحديد مكان الشاشة بشكل عام */
@@ -89,7 +92,7 @@ body {
 
 
 /* ايباد */
-@media (min-width:1025px) and (max-width:1280px) {
+@media (min-width:992px) and (max-width:1199px) {
     .container {
         width: 970px;
     }
@@ -98,7 +101,7 @@ body {
 }
 
 /* لابتوب  */
-@media (min-width:1281px) {
+@media (min-width:1200px) {
     .container {
         width: 1170px;
     }
@@ -223,11 +226,11 @@ body {
 
 /* بداية التحديد على حسب مقاسات الشاشات */
 
-/* تابلت */
-@media (min-width:576px) and (max-width:768px) {
+/* جوال */
+@media (max-width:768px) {
     .hero {
-        background-size: 100% 420px;
-        height: 380px;
+        background-size: 100% 300px;
+        height: 250px;
     }
 
     /* تحديد ايقونة الصورة */
@@ -244,7 +247,7 @@ body {
     .hero .container .hero-info h2 {
         font-size: 16px;
         position: relative;
-        bottom: 5px;
+        top: 15px;
 
     }
 
@@ -262,10 +265,10 @@ body {
     /* تحديد الجملة الثالثة جنب  ايقونة الصورة */
 }
 
-/* جوال   */
+/* تابلت   */
 @media (min-width:768px) and (max-width:991px) {
     .hero {
-        background-size: 100% 300px;
+        background-size: 100% 500px;
     }
 
     /* تحديد ايقونة الصورة */
@@ -274,12 +277,12 @@ body {
         font-size: 90px;
         bottom: 20px;
         left: 280px;
-        /* color: blueviolet; */
+        color: blueviolet;
     }
 
     /* تحديد العنوان جنب  ايقونة الصورة */
     .hero .container .hero-info h2 {
-        font-size: 20px;
+        font-size: 200px;
         position: relative;
         bottom: 50px;
         right: 50px;
@@ -301,7 +304,7 @@ body {
 }
 
 /* ايباد */
-@media (min-width:1025px) and (max-width:1280px) {
+@media (min-width:992px) and (max-width:1199px) {
     .hero {
         background-size: 100% 350px;
     }
@@ -340,7 +343,7 @@ body {
 }
 
 /* لابتوب  */
-@media (min-width:1281px) {
+@media  (min-width:1200px) {
     .hero {
         background-size: 100% 350px;
     }
@@ -352,7 +355,7 @@ body {
         left: 410px;
         font-size: 110px;
         bottom: 20px;
-        /* color: red; */
+        color: red;
     }
 
     /* تزبيط عنوان جنب  ايقونة الصورة */
@@ -463,7 +466,7 @@ body {
 /* بداية التحديد على حسب مقاسات الشاشات */
 
 /* بداية تحديد على مقاس شاشة  تابلت*/
-@media (min-width:576px) and (max-width:768px) {
+@media (max-width:768px) {
     .services .container .section-desc {
         font-size: 15px;
         padding: 0;
@@ -783,7 +786,7 @@ body {
 /* بداية التحديد على حسب مقاسات الشاشات */
 
 /*بداية تحديد على مقاس شاشة تابلت  */
-@media (min-width:576px) and (max-width:768px) {
+@media (max-width:768px) {
     .Products .container .address {
         font-size: 20px;
     }
@@ -1646,7 +1649,44 @@ border-radius: 5px;
 /* بداية القسم السادس */
 
 /* نهاية القسم السادس */
+.ad {
+    border-radius: 10px;
+}
 
+.ad img {
+    transition: 0.3s;
+}
+
+.ad:hover img {
+    scale: 1.1;
+}
+
+.ad .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.531);
+    z-index: 100 !important;
+}
+
+.ad .ad-info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    z-index: 101 !important;
+}
+
+.ad .ad-info h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Almarai;
+}
+
+.ad .ad-info p {
+    color: white;
+}
 
 
 

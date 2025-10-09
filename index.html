@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/normaliz.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styl.css">
+    <link rel="stylesheet" href="glow_original2.html">
 </head>
 
 <body>
@@ -28,7 +29,8 @@
             </a>
             <nav>
                 <ul>
-                    <li><a href="#">تسجيل الدخول</a></li>
+                    <li><a data-bs-toggle="offcanvas" href="#logon" role="button" aria-controls="offcanvasExample">تسجيل
+                            الدخول</a></li>
                     <li><a href="glow_original2.html" target="_blank">تسجيل كضيف</a></li>
                     <li><a href="#logon">اتصل بنا</a></li>
                 </ul>
@@ -42,6 +44,34 @@
                     <i class="fa-solid fa-envelope"></i>
                 </a>
 
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="logon" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="logon">تسجيل الدخول</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">اسم المستخدم او البريد</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                       
+                    </div>
+                    <div class="mb-3">
+                        <label for="Password" class="form-label">كلمة المرور</label>
+                        <input type="password" class="form-control" id="Password">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">حفظ البيانات</label>
+                    </div>
+                    <div class=" alert my-3 text-center">
+                        <a href="">نسيت كلمة المرور</a>
+                    </div>
+                    <button type="submit" class="btn btn-danger w-100 my-2">تسجيل الدخول </button>
+                    <button type="submit" class="btn btn-danger w-100 my-2"> إنشاء حساب </button>
+                </form>
             </div>
         </div>
     </header>
@@ -638,7 +668,8 @@
     <a href="https://iwtsp.com/963994019377" class="btn-whatspp" target="_blank">
         <i class="fa-brands fa-whatsapp"> </i>
     </a>
-
+    <script src="script.js/bootstrap.js"></script>
+    <script src="script.js/script.js"></script>
 </body>
 
 </html>

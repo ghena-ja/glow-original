@@ -16,39 +16,46 @@
     <link rel="stylesheet" href="css/normaliz.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styl.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="index.html">
+
 </head>
 
 <body>
     <header>
+        <!-- قسم الخط العلوي -->
         <div class="top_header d-flex align-items-center py-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-2 col-md-4">
                         <a href="">
-                            <img width="80px" src="imagess/tast.png" alt="glow_beauty_store">
+                            <img width="50px" src="imagess/tast.png" alt="glow_beauty_store">
                         </a>
                     </div>
-                    <div class="col-md-4 d-flex align-items-center">
+                    <div class=" col-6 col-md-4 d-flex align-items-center">
                         <input type="text" class="form-control" placeholder="اكتب اسم المنتج للبحث عنه">
 
                     </div>
-                    <div class="col-md-4 left_header d-flex align-items-center">
-                        <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-                            aria-controls="offcanvasExample">
+                    <div class="col-4 col-md-4 left_header d-flex align-items-center ">
+                        <a data-bs-toggle="offcanvas" href="#card" role="button" aria-controls="offcanvasExample">
                             <span>السلة</span>
                             <i class="fa-solid fa-cart-shopping"></i>
 
                         </a>
-                        <a href="">
+                        <a data-bs-toggle="offcanvas" href="#like" role="button" aria-controls="offcanvasExample">
                             <span> المفضلة</span>
                             <i class="fa-solid fa-heart"></i>
 
                         </a>
 
                     </div>
+
                 </div>
             </div>
         </div>
+        <!-- نهاسة قسم الخط العلوي -->
+
+        <!-- قسم الخط الثاني -->
         <div class="buttom_header">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container">
@@ -61,25 +68,809 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                                <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="webfonts/Perfumes.html">عطورات الجسم</a>
+                                <a class="nav-link" href="webfonts/Perfumes.html">قسم عطورات الجسم </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="webfonts/Hair care.html">العناية بالشعر</a>
+                                <a class="nav-link" href="webfonts/Hair care.html">قسم العناية بالشعر</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="webfonts/makeup.html">مستحضرات التجميل</a>
+                                <a class="nav-link" href="webfonts/makeup.html">قسم مستحضرات التجميل</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="webfonts/Creams.html">العناية  بالبشرة </a>
+                                <a class="nav-link" href="webfonts/Creams.html">قسم العناية بالبشرة </a>
                             </li>
                         </ul>
                     </div>
                 </div>
+
             </nav>
+
         </div>
+        <!-- نهاية الخط الثاني -->
+
+        <!-- قسم الخط الثالث -->
+        <div class="slider mt-2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-8">
+
+                        <div id="main-slider" class="carousel slide" data-bs-touch="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img height="380px" src="imagess/slider1.jpg" class="d-block w-100" alt="slider">
+                                </div>
+                                <div class="carousel-item">
+                                    <img height="380px" src="imagess/slider2.jpg" class="d-block w-100" alt="slider">
+                                </div>
+                                <div class="carousel-item">
+                                    <img height="380px" src="imagess/slider3.jpg" class="d-block w-100" alt="slider">
+                                </div>
+                                <div class="carousel-item">
+                                    <img height="380px" src="imagess/slider4.jpg" class="d-block w-100" alt="slider">
+                                </div>
+                                <div class="carousel-item">
+                                    <img height="380px" src="imagess/slider5.jpg" class="d-block w-100" alt="slider">
+                                </div>
+                                <div class="carousel-item">
+                                    <img height="380px" src="imagess/slider6.jpg" class="d-block w-100" alt="slider">
+                                </div>
+                                <div class="carousel-item">
+                                    <img height="380px" src="imagess/slider7.jpg" class="d-block w-100" alt="slider">
+                                </div>
+                                <div class="carousel-item">
+                                    <img height="380px" src="imagess/slider8.jpg" class="d-block w-100" alt="slider">
+                                </div>
+                                <div class="carousel-item">
+                                    <img height="380px" src="imagess/slider9.jpg" class="d-block w-100" alt="slider">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#main-slider"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#main-slider"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="col-4">
+                        <img width="100%" height="185px" src="imagess/slider10.jpg" alt="slider">
+                        <img class="mt-2" width="100%" height="188px" src="imagess/slider11.jpg" alt="slider">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- نهاية الخط الثالث -->
+
+        <!-- قسم الخط الرابع -->
+        <section class="categories">
+            <h2 class="text-center  mt-5">كافة التنصيفات</h2>
+            <div class="container-fluid">
+                <div class="row mt-4">
+                    <div class="col-3">
+                        <a href="webfonts/Perfumes.html">
+                            <div class="card cat ">
+                                <img height="250px" src="imagess/test1.jpg" alt="test">
+                            </div>
+                            <h3 class="text-center colornames mt-2"> عطورات</h3>
+                        </a>
+                    </div>
+                    <div class="col-3 ">
+                        <a href="webfonts/makeup.html">
+                            <div class="card cat ">
+                                <img height="250px" src="imagess/test2.jpg" alt="">
+                            </div>
+                            <h3 class="text-center colornames mt-2">ميك أب</h3>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="webfonts/Creams.html">
+                            <div class="card cat">
+                                <img height="250px" src="imagess/test3.jpg" alt="">
+                            </div>
+                            <h3 class="text-center colornames mt-2"> البشرة</h3>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="webfonts/Hair care.html">
+                            <div class="card cat">
+                                <img height="250px" src="imagess/test4.jpg" alt="">
+                            </div>
+                            <h3 class="text-center colornames mt-2"> الشعر</h3>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+        <!-- نهاية الخط الرابع -->
+
+        <!-- قسم الخط الخامس -->
+        <section class="products mt-5">
+            <!-- <h2 class="text-center  mt-5">أحدث المنتجات</h2> -->
+            <div class="container-fluid">
+
+                <div class="btn-group mb-3 filter-button-group" role="group" aria-label="Basic example">
+                    <button data-filter="*" type="button" class="btn btn-primary">الكل </button>
+                    <button data-filter=".parfanss" type="button" class="btn btn-primary">عطورات</button>
+                    <button data-filter=".makeup" type="button" class="btn btn-primary">ميك أب </button>
+                    <button data-filter=".Cream" type="button" class="btn btn-primary"> منتجات البشرة</button>
+                    <button data-filter=".Hair" type="button" class="btn btn-primary">منتجات الشعر</button>
+                </div>
+
+                <div class="row row-cols-2 row-cols-md-6 all-products ">
+                    <div class="col product mt-3 parfanss ">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="imagess/parfan1.png" alt="">
+                            <div class="product-info">
+                                <h3> عطر مس ديور </h3>
+                                <p>تجسيد للأناقة والأنوثة، ويتميز بمزيج من النفحات الزهرية الفاكهية مع لمسات خشبية دافئة
+                                    في قاعدته..</p>
+
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span>السعر :</span>
+                                    <span> 250syp</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                    class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product mt-3 parfanss">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="imagess/parfan2.png" alt="">
+                            <div class="product-info">
+
+                                <h3> عطر سوفاج </h3>
+                                <p>عطر خشبي شرقي منعش وحار للرجال، مستوحى من البرية الشاسعة، ويتميز بمزيج فريد من
+                                    المكونات العليا</p>
+
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span>السعر :</span>
+                                    <span> 450syp</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                    class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product mt-3 Cream">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="imagess/cream1.jpg" alt="">
+                            <div class="product-info">
+
+                                <h3> مرطب الشفاه من فازلين </h3>
+                                <p>يوفر ترطيبًا فوريًا وعميقًا للشفاه، ويعالج التشققات وخشونة يجعل الشفاه ناعمة ومرنة
+                                    وصحية، مع منحها لمعانًا طبيعيًا ولامعًا.</p>
+
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span>السعر :</span>
+                                    <span> 50syp</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                    class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product mt-3 makeup">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="imagess/makup1 (1).jpg" alt="">
+                            <div class="product-info">
+
+                                <h3> مجموعة ميك اب متكاملة </h3>
+                                <p>تركيبة ناعمة سهلة الدمج تدوم طويلاً ،ألوان غنية ومتنوعة بدرجات دافئة وباردة،مناسبة
+                                    لجميع أنواع البشرة.</p>
+
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span>السعر :</span>
+                                    <span> 500syp</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                    class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product mt-3 makeup">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="imagess/makeup2.jpg" alt="">
+                            <div class="product-info">
+
+                                <h3>كونسيلر من شيغلام</h3>
+                                <p>يوفّر تغطية متوسطة إلى كاملة، بلمسة نهائية ناعمة وغير لامعة، ويدوم لـ 12 ساعة، ويمكن
+                                    طبقات متعددة لتغطية العيوب العميقة </p>
+
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span>السعر :</span>
+                                    <span> 250syp</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                    class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product mt-3 Hair">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="imagess/cream2.png" alt="">
+                            <div class="product-info">
+
+                                <h3> بكج العناية بالشعر </h3>
+                                <p>مجموعة متكاملة لتقوية الشعر وتحفيز نموه، مصممة خصيصًا لمنح الشعر صحة ولمعانًا . تحتوي
+                                    المجموعة على خلاصة إكليل الجبل</p>
+
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span>السعر :</span>
+                                    <span> 100syp</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                    class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product mt-3 parfanss">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="imagess/parfan3.jpg" alt="">
+                            <div class="product-info">
+
+                                <h3> عطر good gril</h3>
+                                <p>عطر زهري شرقي أنثوي جريء، يتميز بتوازن بين الجاذبية والجرأة، يجسد ثقة المرأة وقوتها
+                                    وشخصيتها المزدوجة </p>
+
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span>السعر :</span>
+                                    <span> 250syp</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                    class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product mt-3 parfanss">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="imagess/parfan4.jpg" alt="">
+                            <div class="product-info">
+
+                                <h3> عطر سكاندل</h3>
+                                <p>يتميز بمزيج فريد من رائحة العسل مع نوتات زهرية مثل الغاردينيا في قلبه، وينتهي بدفء
+                                    العسل وتركيز من الكراميل والباتشولي</p>
+
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span>السعر :</span>
+                                    <span> 450syp</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                    class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product mt-3 Cream">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="imagess/cream5.jpg" alt="">
+                            <div class="product-info">
+
+                                <h3> مرطب الجسم من فازلين </h3>
+                                <p>يوفر ترطيبًا فوريًا وعميقًا للشفاه، ويعالج التشققات وخشونة يجعل الشفاه ناعمة ومرنة
+                                    وصحية، مع منحها لمعانًا طبيعيًا ولامعًا.</p>
+
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span>السعر :</span>
+                                    <span> 50syp</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                    class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product mt-3 Hair">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="imagess/cream4.jpg" alt="">
+                            <div class="product-info">
+
+                                <h3> مرطب الجسم من فازلين </h3>
+                                <p>يوفر ترطيبًا فوريًا وعميقًا للشفاه، ويعالج التشققات وخشونة يجعل الشفاه ناعمة ومرنة
+                                    وصحية، مع منحها لمعانًا طبيعيًا ولامعًا.</p>
+
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span>السعر :</span>
+                                    <span> 50syp</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                    class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product mt-3 makeup">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="imagess/makeup3.jpg" alt="">
+                            <div class="product-info">
+
+                                <h3>كونسيلر من شيغلام</h3>
+                                <p>يوفّر تغطية متوسطة إلى كاملة، بلمسة نهائية ناعمة وغير لامعة، ويدوم لـ 12 ساعة، ويمكن
+                                    طبقات متعددة لتغطية العيوب العميقة </p>
+
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span>السعر :</span>
+                                    <span> 250syp</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                    class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product mt-3 makeup">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                            </div>
+                            <img src="imagess/makeup4.jpg" alt="">
+                            <div class="product-info">
+
+                                <h3>كونسيلر من شيغلام</h3>
+                                <p>يوفّر تغطية متوسطة إلى كاملة، بلمسة نهائية ناعمة وغير لامعة، ويدوم لـ 12 ساعة، ويمكن
+                                    طبقات متعددة لتغطية العيوب العميقة </p>
+
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span>السعر :</span>
+                                    <span> 250syp</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                    class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- نهاية الخط الخامس -->
+
+        <!-- قسم الخط السادس -->
+        <section class="nwe-products">
+            <h2 class="text-center  mt-5">أحدث المنتجات</h2>
+            <div class="container-fluid">
+
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="col product mt-3 swiper-slide">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i
+                                            class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="imagess/cream3.png" alt="">
+                                <div class="product-info">
+
+                                    <h3> مرطب الجسم من فازلين </h3>
+                                    <p>يوفر ترطيبًا فوريًا وعميقًا للشفاه، ويعالج التشققات وخشونة يجعل الشفاه ناعمة
+                                        ومرنة
+                                        وصحية، مع منحها لمعانًا طبيعيًا ولامعًا.</p>
+
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر :</span>
+                                        <span> 50syp</span>
+                                    </div>
+                                    <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                        class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col product mt-3  swiper-slide">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i
+                                            class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="imagess/hair1.jpg" alt="">
+                                <div class="product-info">
+
+                                    <h3> مرطب الجسم من فازلين </h3>
+                                    <p>يوفر ترطيبًا فوريًا وعميقًا للشفاه، ويعالج التشققات وخشونة يجعل الشفاه ناعمة
+                                        ومرنة
+                                        وصحية، مع منحها لمعانًا طبيعيًا ولامعًا.</p>
+
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر :</span>
+                                        <span> 50syp</span>
+                                    </div>
+                                    <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                        class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col product mt-3  swiper-slide">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i
+                                            class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="imagess/makeup3.jpg" alt="">
+                                <div class="product-info">
+
+                                    <h3>كونسيلر من شيغلام</h3>
+                                    <p>يوفّر تغطية متوسطة إلى كاملة، بلمسة نهائية ناعمة وغير لامعة، ويدوم لـ 12 ساعة،
+                                        ويمكن
+                                        طبقات متعددة لتغطية العيوب العميقة </p>
+
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر :</span>
+                                        <span> 250syp</span>
+                                    </div>
+                                    <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                        class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col product mt-3  swiper-slide">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i
+                                            class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="imagess/parfan2.png" alt="">
+                                <div class="product-info">
+
+                                    <h3> عطر سوفاج </h3>
+                                    <p>عطر خشبي شرقي منعش وحار للرجال، مستوحى من البرية الشاسعة، ويتميز بمزيج فريد من
+                                        المكونات العليا</p>
+
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر :</span>
+                                        <span> 450syp</span>
+                                    </div>
+                                    <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                        class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col product mt-3 swiper-slide">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i
+                                            class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="imagess/cream3.png" alt="">
+                                <div class="product-info">
+
+                                    <h3> مرطب الجسم من فازلين </h3>
+                                    <p>يوفر ترطيبًا فوريًا وعميقًا للشفاه، ويعالج التشققات وخشونة يجعل الشفاه ناعمة
+                                        ومرنة
+                                        وصحية، مع منحها لمعانًا طبيعيًا ولامعًا.</p>
+
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر :</span>
+                                        <span> 50syp</span>
+                                    </div>
+                                    <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                        class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col product mt-3  swiper-slide">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i
+                                            class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="imagess/hair1.jpg" alt="">
+                                <div class="product-info">
+
+                                    <h3> مرطب الجسم من فازلين </h3>
+                                    <p>يوفر ترطيبًا فوريًا وعميقًا للشفاه، ويعالج التشققات وخشونة يجعل الشفاه ناعمة
+                                        ومرنة
+                                        وصحية، مع منحها لمعانًا طبيعيًا ولامعًا.</p>
+
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر :</span>
+                                        <span> 50syp</span>
+                                    </div>
+                                    <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                        class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col product mt-3  swiper-slide">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i
+                                            class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="imagess/makeup3.jpg" alt="">
+                                <div class="product-info">
+
+                                    <h3>كونسيلر من شيغلام</h3>
+                                    <p>يوفّر تغطية متوسطة إلى كاملة، بلمسة نهائية ناعمة وغير لامعة، ويدوم لـ 12 ساعة،
+                                        ويمكن
+                                        طبقات متعددة لتغطية العيوب العميقة </p>
+
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر :</span>
+                                        <span> 250syp</span>
+                                    </div>
+                                    <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                        class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col product mt-3  swiper-slide">
+                            <div class="card overflow-hidden">
+                                <div class="quick-icons">
+                                    <a href="#quick-product" data-bs-toggle="modal"><i
+                                            class="fa-solid fa-magnifying-glass"></i></a>
+                                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </div>
+                                <img src="imagess/parfan2.png" alt="">
+                                <div class="product-info">
+
+                                    <h3> عطر سوفاج </h3>
+                                    <p>عطر خشبي شرقي منعش وحار للرجال، مستوحى من البرية الشاسعة، ويتميز بمزيج فريد من
+                                        المكونات العليا</p>
+
+                                    <div class="stars mb-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="price mb-2">
+                                        <span>السعر :</span>
+                                        <span> 450syp</span>
+                                    </div>
+                                    <button onclick="alert('تم اضافة المنتج الى السلة بنجاح')"
+                                        class="  btn  btn-danger w-100">إضافة إلى السلة</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+        <!--   نهاية الخط السادس -->
 
 
 
@@ -91,49 +882,118 @@
 
 
 
-
-
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-            aria-labelledby="offcanvasExampleLabel">
+        <!-- قسم سلة المشتريات -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="card" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <h5 class="offcanvas-title" id="card">سلة المشتريات</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                <div>
-                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text,
-                    images, lists, etc.
+                <div class="row row-cols-1 row-min-card m-1">
+                    <div class="col mini-card d-flex  justify-content-between align-items-center">
+                        <img class="img-fluid w-25" src="imagess/parfan1.png" alt="عطر مس ديور">
+                        <p> عطر مس ديور </p>
+                        <div class="btn-group btns-quantity-mini">
+                            <button type="button" class="btn">+</button>
+                            <button type="button" class="btn">1</button>
+                            <button type="button" class="btn">-</button>
+                        </div>
+                    </div>
+                    <div class="col mini-card d-flex justify-content-between align-items-center">
+                        <img class="img-fluid w-25" src="imagess/parfan1.png" alt="عطر مس ديور">
+                        <p> عطر مس ديور </p>
+                        <div class="btn-group btns-quantity-mini">
+                            <button type="button" class="btn">+</button>
+                            <button type="button" class="btn">1</button>
+                            <button type="button" class="btn">-</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="dropdown mt-3">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                        Dropdown button
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                <div class="d-flex flex-column gap-3">
+                    <p class="alert alert-danger p-3 my-3 text-center"> مجموع المنتجات 300syp </p>
+                    <button class="btn btn-danger w-100">عرض السلة</button>
+                    <button class="btn btn-danger w-100"> اتمام الطلب</button>
                 </div>
             </div>
         </div>
+        <!-- قسم المفضلة -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="like" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="like">قسم المفضلة</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
 
+            <div class="offcanvas-body">
 
+            </div>
 
+        </div>
+        <!-- نهاية قسم سلة المشتريات والمفضلة   -->
+        <!-- قسم ايقونة البحث -->
+        <div class="modal fade" id="quick-product" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                                <img class="img-fluid" src="imagess/parfan1.png" alt="عطر مس ديور">
+                                <button class="btn btn-danger w-100 mt-2">كافة التفاصيل</button>
+                            </div>
+                            <div class="col ">
+                                <img class="test" width="30%" src="imagess/prand1.jpg" alt="">
+                                <div class="product-info">
+                                    <h3> عطر مس ديور </h3>
+                                    <p>تجسيد للأناقة والأنوثة، ويتميز بمزيج من النفحات الزهرية الفاكهية مع لمسات خشبية
+                                        دافئة
+                                        في قاعدته..</p>
+                                </div>
+                                <div class="price mb-2">
+                                    <span>السعر :</span>
+                                    <span> 250syp</span>
+                                </div>
+                                <div class="btns d-flex gap-2 mt-4">
+                                    <div class="btn-group btns-quantity">
+                                        <button type="button" class="btn">+</button>
+                                        <button type="button" class="btn">1</button>
+                                        <button type="button" class="btn">-</button>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-danger  "> اضافة الى السلة</button>
+                                        <button class="btn btn-danger"> الشراء الان</button>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="gategory">
+                                    <span> التنصيفات:</span>
+                                    <a href=""> عطورات</a>
+                                </div>
 
-
-
-
-
-
-
-
-
-
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  نهاية قسم ايقونة البحث -->
 
     </header>
-
+    <!-- مكتبات الجافا  -->
+    <!-- قسم الفلتر الخاص بقسم المنتجات -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- نهاية قسم الفلتر الخاص بقسم المنتجات -->
+    <!-- مكتبة السلايدر -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!-- ربط صفحات الجافا -->
     <script src="script.js/bootstrap.js"></script>
     <script src="script.js/script.js"></script>
+    <!-- نهاية مكتبات الجافا -->
 </body>
 
 </html>

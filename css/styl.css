@@ -1475,16 +1475,187 @@ body {
 /* نهاية الصفحة الاول  */
 
 /* بداية الصفحة التالية */
+header {
+    height: 2500px;
+}
+
+/* بداية القسم الاول */
 .top_header {
     background-color: #7a4e3d93;
     border: 2px solid rgba(0, 0, 0, 0);
     /* height: 80px; */
 }
-.left_header a{
-    margin-left: 9px;
-    color: black;
-    margin-right: 30px;
+
+.left_header a {
+    margin-right: 9px;
+    color: rgba(255, 255, 255, 0.607);
+    /* margin-right: 70px; */
+    transition: all 0.3s;
 }
+
+@media (min-width:1281px) {
+    .left_header a {
+        padding: 0 45px;
+    }
+}
+
+.left_header a:hover {
+    color: brown;
+}
+
+/* نهاية القسم الاول */
+
+/* بداية القسم الثاني */
+.nav-link {
+    font-weight: bold !important;
+    margin-left: 10px;
+    margin-right: 50px;
+    color: black;
+
+}
+
+/* نهاية القسم الثاني */
+
+/* بداية القسم الرابع */
+.cat {
+    background: linear-gradient(135deg, #F5E6D3 0%, #FDE2E4 100%);
+    border-radius: 5%;
+}
+
+.cat img {
+    transform: all 0.3s;
+    border-radius: 5%;
+
+
+}
+
+.cat:hover img {
+    scale: 1.1;
+}
+
+.colornames {
+    font-family: "Playpen Sans Arabic", cursive;
+    color: rgba(165, 42, 42, 0.663);
+}
+
+.colornames:hover {
+    color: black
+}
+
+/* نهاية القسم الرابع */
+
+/*  بداية القسم الخامس */
+.card {
+    background-color: rgba(255, 255, 255, 0.362);
+}
+
+.product-info h3 {
+    color: rgb(87, 42, 42);
+    font-family: "Playpen Sans Arabic", cursive;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+.product-info p {
+    line-height: 1.3;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.stars {
+    color: rgb(252, 200, 0);
+    text-align: center;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    color: rgb(113, 31, 31);
+    font-family: "Playpen Sans Arabic", cursive;
+    font-weight: 500;
+}
+
+.quick-icons {
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.314);
+    right: -45px;
+    top: 15px;
+    height: 150px;
+    width: 45px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.3s;
+
+}
+
+.quick-icons i {
+    font-size: 18px;
+    color: rgba(255, 0, 0, 0.468);
+}
+
+.product:hover .quick-icons {
+    right: 0;
+}
+
+.test {
+    margin-right: 170px ;
+}
+@media (min-width:1281px) {
+    .test {
+    margin-right: 130px ;
+}
+}
+.btns-quantity button,.btns-quantity button:hover{
+    border: 1px solid #eee;
+}
+.mini-card{
+    background-color:rgba(255, 228, 196, 0.589);
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.mini-card p{
+   font-weight: bold !important;
+}
+.mini-card img{
+border-radius: 5px;
+}
+.btns-quantity-mini button{
+    background-color: white !important;
+    border: 1px solid #ccc;
+}
+.row-min-card{
+    padding-bottom:20px;
+    border-bottom: 2px solid rgb(137, 72, 72);
+}
+.alert a{
+    color: red;
+}
+
+
+/* نهاية القسم الخامس */
+
+/* بداية القسم السادس */
+
+/* نهاية القسم السادس */
+
+
+
+
+
+
+
+
+
+
 
 /* .log .container nav {
     position: relative;

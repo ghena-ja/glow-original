@@ -1316,17 +1316,20 @@ button{
 /* بداية التحديد على حسب مقاسات الشاشات */
 
 /*بداية تحديد على مقاس شاشة تابلت  */
-@media (min-width:576px) and (max-width:768px) {
+@media  (max-width:768px) {
     .logon .container .end h2 {
         position: relative;
-        bottom: 13px;
+        bottom: 50px;
         left: 2px;
+        font-size: 14px;
     }
 
     .logon .container .end p {
-        width: 80%;
+        width: 180%;
         position: relative;
-        bottom: 13px;
+        font-size: 10px;
+        bottom: 50px;
+        color: violet;
     }
 
     .logon .container nav ol h2 {
@@ -1478,9 +1481,9 @@ button{
 /* نهاية الصفحة الاول  */
 
 /* بداية الصفحة التالية */
-header {
+/* header {
     height: 2500px;
-}
+} */
 
 /* بداية القسم الاول */
 .top_header {
@@ -1646,15 +1649,17 @@ border-radius: 5px;
 
 /* نهاية القسم الخامس */
 
-/* بداية القسم السادس */
+/* بداية القسم الثامن */
 
-/* نهاية القسم السادس */
+
 .ad {
-    border-radius: 10px;
+    border-radius: 10px !important;
+    cursor: pointer;
 }
 
 .ad img {
     transition: 0.3s;
+    
 }
 
 .ad:hover img {
@@ -1687,7 +1692,7 @@ border-radius: 5px;
 .ad .ad-info p {
     color: white;
 }
-
+/* نهاية القسم الثامن */
 
 
 

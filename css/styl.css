@@ -1043,7 +1043,7 @@ button {
 
 
 /*بداية تحديد على مقاس شاشة لابتوب  */
-@media  (min-width:1200px)  {
+@media (min-width:1200px) {
     .our-team .container .teams {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         gap: 88px;
@@ -1297,7 +1297,7 @@ button {
         right: 40px;
         font-size: 18px;
         top: 10px;
-        
+
     }
 
     .logon .container .end p {
@@ -1307,14 +1307,14 @@ button {
         text-align: center;
         bottom: 10px;
         right: 40px;
-        
+
 
     }
 
     .logon .container nav ol h2 {
         position: relative;
         left: 80px;
-         top: 15px;
+        top: 15px;
         font-size: 12px;
 
 
@@ -1327,7 +1327,7 @@ button {
         position: relative;
         left: 80px;
         top: 25px;
-      
+
     }
 
     .logon .container .social h2 {
@@ -1335,7 +1335,7 @@ button {
         position: relative;
         right: 15px;
         top: 10px;
-        
+
     }
 
     .logon .container .social p {
@@ -1360,7 +1360,7 @@ button {
 /*نهاية تحديد على مقاس شاشة جوال  */
 
 /*بداية تحديد على مقاس شاشة لابتوب  */
-@media  (min-width:1200px) {
+@media (min-width:1200px) {
     .logon .container .end p {
         width: 50%;
         position: relative;
@@ -1403,18 +1403,20 @@ button {
         position: relative;
         bottom: 10px;
         right: 530px;
-      
+
     }
+
     .log .sections .letter form input[ type="email"] {
         position: relative;
         bottom: 10px;
         right: 540px;
-      
+
     }
-    .log .sections .letter form input[ type="submit"]{
+
+    .log .sections .letter form input[ type="submit"] {
         position: relative;
         right: 550px;
-       
+
     }
 }
 
@@ -1586,12 +1588,29 @@ button {
     margin-right: 170px;
 }
 
+/*  */
 @media (min-width:1281px) {
     .test {
         margin-right: 130px;
     }
+
+    .tests {
+        margin-right: 195px;
+    }
+
+    .img_product {
+        width: 550px;
+        height: 379px;
+    }
+
+    .btnns {
+        margin-right: 30px;
+    }
 }
 
+/*  */
+
+/*  */
 .btns-quantity button,
 .btns-quantity button:hover {
     border: 1px solid #eee;
@@ -1626,6 +1645,7 @@ button {
     color: red;
 }
 
+/*  */
 
 /* نهاية القسم الخامس */
 
@@ -1736,3 +1756,19 @@ button {
 }  */
 
 /* نهاية الصفحة التالية */
+/*  */
+.carousel-img {
+    position: absolute !important;
+    display: flex !important  ;
+    flex-direction:column  !important     ;
+    right: -170px !important;
+    top: 30px !important;
+    gap: 10px !important;
+}
+
+.img_slider {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 15px;
+    border: 1px solid pink !important ;
+}

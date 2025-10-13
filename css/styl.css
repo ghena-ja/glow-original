@@ -1307,7 +1307,7 @@ button {
         right: 40px;
         font-size: 18px;
         bottom: 15px;
-        
+
 
     }
 
@@ -1316,7 +1316,7 @@ button {
         position: relative;
         font-size: 13px;
         text-align: center;
-       
+
 
 
     }
@@ -1382,7 +1382,7 @@ button {
     .logon .container nav ol h2 {
         position: relative;
         left: 230px;
-        top: 2px;
+        bottom: 10px;
         font-size: 25px;
 
     }
@@ -1393,7 +1393,7 @@ button {
         width: 200%;
         font-size: 15px;
         line-height: 2;
-        top: 10px;
+
 
     }
 
@@ -1463,11 +1463,11 @@ button {
 
 /* نهاية الصفحة الاول  */
 
-/* بداية الصفحة التالية */
 /* header {
     height: 2500px;
 } */
 
+/* بداية الصفحة التالية */
 /* بداية القسم الاول */
 .top_header {
     background-color: #7a4e3d93;
@@ -1849,3 +1849,21 @@ button {
 }
 
 /* نهاية القسم الرابع*/
+
+/*بداية صفحة قسم العطور  */
+.bunner {
+    background-color: #fde2e455;
+    padding-top: 30px;
+    padding-bottom: 7px;
+    border-bottom: 1px dashed rgba(101, 54, 54, 0.345);
+}
+
+.category-title {
+    font-family: "Playpen Sans Arabic", cursive;
+    font-weight: bold;
+    color: rgba(165, 42, 42, 0.663);
+    text-align: center;
+    
+}
+
+/*نهاية صفحة قسم العطور  */

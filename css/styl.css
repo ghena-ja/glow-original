@@ -72,6 +72,12 @@ button {
     margin-right: auto;
 }
 
+.title {
+    font-family: "Playpen Sans Arabic", cursive;
+    font-weight: bold;
+    color: rgba(165, 42, 42, 0.663);
+}
+
 /*الجوال  */
 @media (max-width:768px) {
     .container {
@@ -1183,6 +1189,9 @@ button {
     bottom: 20px;
     line-height: 1.5;
     font-family: "Alexandria", sans-serif;
+    font-weight: bold;
+    line-height: 2;
+
 }
 
 .logon .container nav ol h2 {
@@ -1198,6 +1207,7 @@ button {
 .logon .container nav ol a {
     color: black;
     font-family: "Alexandria", sans-serif;
+    font-weight: bold;
     cursor: pointer;
     /* display: block; */
     transition: 0.5s;
@@ -1279,7 +1289,7 @@ button {
     cursor: pointer;
     transition: 0.5s;
     position: relative;
-    bottom: 10px;
+    bottom: 16px;
     right: 200px;
 }
 
@@ -1296,17 +1306,17 @@ button {
         position: relative;
         right: 40px;
         font-size: 18px;
-        top: 10px;
+        bottom: 15px;
+        
 
     }
 
     .logon .container .end p {
-        width: 40%;
+        width: 70%;
         position: relative;
         font-size: 13px;
         text-align: center;
-        bottom: 10px;
-        right: 40px;
+       
 
 
     }
@@ -1322,7 +1332,7 @@ button {
     }
 
     .logon .container nav ol li {
-        width: 180%;
+        width: 160%;
         font-size: 12px;
         position: relative;
         left: 80px;
@@ -1333,8 +1343,6 @@ button {
     .logon .container .social h2 {
         font-size: 15px;
         position: relative;
-        right: 15px;
-        top: 10px;
 
     }
 
@@ -1343,6 +1351,7 @@ button {
         bottom: 20px;
         font-size: 10px;
         top: 5px;
+        left: 26px;
     }
 
     .logon .container .social a {
@@ -1350,6 +1359,7 @@ button {
         bottom: 20px;
         font-size: 10px;
         top: 5px;
+        left: 25px;
 
     }
 
@@ -1513,8 +1523,9 @@ button {
 }
 
 .colornames {
+    color: rgba(57, 25, 25, 0.499);
     font-family: "Playpen Sans Arabic", cursive;
-    color: rgba(165, 42, 42, 0.663);
+
 }
 
 .colornames:hover {
@@ -1594,18 +1605,6 @@ button {
         margin-right: 130px;
     }
 
-    .tests {
-        margin-right: 195px;
-    }
-
-    .img_product {
-        width: 550px;
-        height: 379px;
-    }
-
-    .btnns {
-        margin-right: 30px;
-    }
 }
 
 /*  */
@@ -1617,7 +1616,7 @@ button {
 }
 
 .mini-card {
-    background-color: rgba(255, 228, 196, 0.589);
+    background-color: rgba(255, 212, 196, 0.589);
     padding: 15px;
     margin: 5px;
     border-radius: 5px;
@@ -1756,11 +1755,14 @@ button {
 }  */
 
 /* نهاية الصفحة التالية */
-/*  */
+
+/*  بداية صفحة المنتج */
+
+/* بداية القسم الثالث*/
 .carousel-img {
     position: absolute !important;
-    display: flex !important  ;
-    flex-direction:column  !important     ;
+    display: flex !important;
+    flex-direction: column !important;
     right: -170px !important;
     top: 30px !important;
     gap: 10px !important;
@@ -1770,5 +1772,80 @@ button {
     width: 100px !important;
     height: 100px !important;
     border-radius: 15px;
-    border: 1px solid pink !important ;
+    border: 1px solid pink !important;
 }
+
+@media (max-width:768px) {
+    .carousel-img {
+        right: -280px !important;
+        top: 50px !important;
+    }
+
+    .img-mobile {
+        width: 350px !important;
+        left: 100px !important;
+        top: 15px !important;
+    }
+
+    .tests {
+        margin-right: 190px !important;
+        position: relative !important;
+        top: 20px !important;
+    }
+
+    .btnns {
+        margin-right: 25px !important;
+    }
+
+}
+
+@media (min-width:1281px) {
+
+    .tests {
+        margin-right: 220px;
+    }
+
+    .btnns {
+        margin-right: 50px;
+    }
+}
+
+/* نهاية القسم الثالث */
+
+/* بداية القسم الرابع*/
+.title_bar,
+.title_review,
+.title_reviews,
+.title_reviewss {
+    font-family: "Playpen Sans Arabic", cursive;
+    font-weight: bold;
+    color: rgba(165, 42, 42, 0.663);
+}
+
+@media (max-width:768px) {
+
+    .title_reviews {
+        margin-right: 80px !important;
+    }
+
+    .title_reviewss {
+        margin-right: 110px !important;
+    }
+}
+
+@media (min-width:1281px) {
+    .title_bar {
+        margin-right: 60px !important;
+        margin-bottom: 50px !important;
+    }
+
+    .title_reviews {
+        margin-right: 200px !important;
+    }
+
+    .title_reviewss {
+        margin-right: 250px !important;
+    }
+}
+
+/* نهاية القسم الرابع*/

@@ -1382,7 +1382,7 @@ button {
     .logon .container nav ol h2 {
         position: relative;
         left: 230px;
-        bottom: 10px;
+        top: 10px;
         font-size: 25px;
 
     }
@@ -1393,6 +1393,7 @@ button {
         width: 200%;
         font-size: 15px;
         line-height: 2;
+        top: 17px;
 
 
     }
@@ -1863,7 +1864,114 @@ button {
     font-weight: bold;
     color: rgba(165, 42, 42, 0.663);
     text-align: center;
-    
+
 }
 
 /*نهاية صفحة قسم العطور  */
+
+/*بداية صفحة قسم سلة المشتريات  */
+.summary p {
+    font-weight: bold;
+
+}
+
+@media (max-width:768px) {
+    .title-cart p {
+        position: relative;
+        top: 49px;
+
+    }
+
+    .title-cart1 {
+        position: relative;
+        right: 60px;
+    }
+
+    .title-cart2 {
+        position: relative;
+        right: 110px;
+    }
+
+    .title-cart3 {
+        position: relative;
+        right: 160px;
+    }
+
+    .parfan {
+        position: relative;
+        top: 6px;
+
+    }
+
+    .summary {
+        margin-top: 50px;
+        margin-right: 30px;
+
+    }
+
+    .summary h4 {
+        margin-right: 130px;
+
+    }
+
+    .titles {
+        margin-top: 50px;
+        margin-right: 20px;
+
+    }
+    .user-info{
+        margin-right: 40px;
+    }
+
+
+
+}
+
+@media (min-width:1281px) {
+    .title-cart p {
+        margin-right: 210px;
+        position: relative;
+        top: 29px;
+
+    }
+
+    .title-cart1 {
+        position: relative;
+        left: 30px;
+    }
+
+    .title-cart2 {
+        position: relative;
+        left: 130px;
+    }
+
+    .title-cart3 {
+        position: relative;
+        left: 230px;
+    }
+
+    .summary {
+        margin-top: 50px;
+
+    }
+
+    .summary {
+        margin-right: 70px;
+
+    }
+
+    .summary h4 {
+        padding: 30px;
+
+    }
+
+    .titles {
+        margin-top: 100px;
+        margin-right: 30px;
+    }
+}
+
+/*نهاية صفحة قسم سلة المشتريات  */
+.user-info{
+     background-color: rgba(255, 212, 196, 0.589);
+}

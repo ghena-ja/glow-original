@@ -1302,6 +1302,13 @@ button {
 
 /*بداية تحديد على مقاس شاشة الجوال  */
 @media (max-width:768px) {
+
+  
+
+}
+/* 
+بداية تحديد على مقاس شاشة الجوال  */
+@media (max-width:768px) {
     .logon .container .end h2 {
         position: relative;
         right: 40px;
@@ -1365,7 +1372,7 @@ button {
 
 
 
-}
+} 
 
 /*نهاية تحديد على مقاس شاشة جوال  */
 
@@ -1919,7 +1926,8 @@ button {
         margin-right: 20px;
 
     }
-    .user-info{
+
+    .user-info {
         margin-right: 40px;
     }
 
@@ -1972,6 +1980,6 @@ button {
 }
 
 /*نهاية صفحة قسم سلة المشتريات  */
-.user-info{
-     background-color: rgba(255, 212, 196, 0.589);
+.user-info {
+    background-color: rgba(255, 212, 196, 0.589);
 }

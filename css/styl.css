@@ -485,7 +485,7 @@ body {
     /* تحديد حجم خط النص */
     .services .container .all-services h3 {
         position: relative;
-        top: 60px;
+        top: 40px;
         font-size: 17px;
     }
 

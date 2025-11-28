@@ -226,6 +226,18 @@ body {
 
 /* جوال */
 @media (max-width:768px) {
+    .login1 .container nav ul a {
+    display: block;
+    padding: 5px ;
+    font-size: 12px;
+    font-weight: 20px;
+    color: rgba(255, 255, 255, 0.812);
+    transition: 0.3s;
+    font-family: "Alexandria", sans-serif;
+    margin-top: 10px;
+    
+    
+}
     .hero {
         background-size: 100% 300px;
         height: 250px;
@@ -234,18 +246,19 @@ body {
     /* تحديد ايقونة الصورة */
     .hero .container .hero-info .hero-title {
         position: relative;
-        left: 210px;
-        font-size: 70px;
-        top: 20px;
-        left: 140px;
+        font-size: 50px;
+        top: 30px;
+        left: 90px;
         /* color: white; */
     }
 
     /* تحديد العنوان جنب  ايقونة الصورة */
     .hero .container .hero-info h2 {
-        font-size: 16px;
+        font-size: 13px;
         position: relative;
-        top: 15px;
+        top: 40px;
+        left: 15px; 
+
 
     }
 
@@ -254,9 +267,9 @@ body {
     .hero .container .hero-info p {
         width: 40%;
         position: relative;
-        top: 30px;
+        top: 50px;
         font-size: 14px;
-        right: 10px;
+        right: 5px;
 
     }
 

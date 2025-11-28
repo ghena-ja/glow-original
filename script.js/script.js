@@ -1,19 +1,3 @@
-// let icon =document.getElementById('icon-mobile');
-// let ul =document.getElementById('ul-mobile');
-
-// icon.onclick = function (){
-//     ul.classList.toggle("mobile-navl")
-// }
-
-// init Isotope
-var $products = $(".all-products").isotope({
-  originLeft: false,
-});
-// filter items on button click
-$(".filter-button-group").on("click", "button", function () {
-  var filterValue = $(this).attr("data-filter");
-  $products.isotope({ filter: filterValue });
-});
 
 const swiper = new Swiper(".swiper", {
   // Optional parameters

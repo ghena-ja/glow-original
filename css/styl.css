@@ -475,7 +475,7 @@ body {
 
 /* بداية التحديد على حسب مقاسات الشاشات */
 
-/* بداية تحديد على مقاس شاشة  تابلت*/
+/* بداية تحديد على مقاس شاشةالجوال   */
 @media (max-width:768px) {
     .services .container .section-desc {
         font-size: 15px;
@@ -535,7 +535,7 @@ body {
 
 /* نهاية تحديد على مقاس شاشة  الجوال*/
 
-/*بداية تحديد على مقاس شاشة الجوال  */
+/*بداية تحديد على مقاس شاشة   */
 @media (min-width:768px) and (max-width:991px) {
     .services .container .section-desc {
         font-size: 25px;
@@ -590,7 +590,7 @@ body {
 
 }
 
-/* نهاية تحديد على مقاس شاشة الجوال */
+/* نهاية تحديد على مقاس شاشة  */
 
 /* بداية تحديد على مقاس شاشة  الايباد*/
 @media (min-width:1025px) and (max-width:1280px) {
@@ -613,14 +613,14 @@ body {
 /*services نهاية القسم الثالث من صفحة الرئيسية ضمن كلاس  */
 
 /*Products بداية القسم الرابع من صفحة الرئيسية ضمن كلاس  */
-.Products {
+.Products .Products {
     background-color: #eed5bf;
-    padding: 10px 0;
+    
 
 }
 
 .Productts {
-    padding: 90px 0 20px 0;
+    padding: 40px 0 20px 0;
 }
 
 /* كلاس مخصص لوضع مسافة للعنوان الرئيسي مع ترك فاصل مع العنوان الثاني */
@@ -733,50 +733,39 @@ body {
 /* بداية التحديد على حسب مقاسات الشاشات */
 
 /*بداية تحديد على مقاس شاشة جوال  */
-@media (max-width:768px) {
+
+/* 📱 استعلام وسائط للشاشات الصغيرة (الجوالات) */
+@media (max-width: 767px) {
+    .Productts {
+        padding: 0px;
+    }
+
     .Products .container .address {
         font-size: 20px;
+
     }
 
-    /* تحديد مقاس العنوان الفرعي*/
-    .Products .container .all-Products {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-        gap: 56px;
-    }
-
-    /* تحديد حجم القوائم والمسافة بينهم */
-    .Products .container .all-Products .Product img {
-        width: 100%;
-        height: 150px;
-    }
-
-    /* تحديد حجم الصورة */
+    /* تحديد حجم العنوان الثاني */
     .Products .container .all-Products .Product .Products-title {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     /*  تحديد حجم العنوان*/
-    .Products .container .all-Products .Product p {
-        font-weight: 600;
-        font-size: 16px;
-    }
-
-    /* تحديد حجم خط الوصف */
     .Products .container .all-Products .Product .Products-price {
         font-size: 15px;
         padding-top: 12px;
     }
 
-    /* تحديد نص السعر */
-
-    .Products .container .all-Products .Product .basket {
-        width: 80%;
-        font-size: 16px;
-        margin-bottom: 90px;
+    .Products .container .all-Products {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 0 10px;
     }
 
-    /* تحديد حجم مربع السلة */
+    .Products .container .all-Products .Product img {
+        height: 250px;
+        /* تقليل الارتفاع قليلًا */
+    }
 }
 
 /*نهاية تحديد على مقاس شاشة جوال  */

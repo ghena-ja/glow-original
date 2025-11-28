@@ -773,7 +773,7 @@ body {
         padding-left: 11px;
         padding-right: 11px;
         font-weight: 700;
-        
+
 
     }
 
@@ -1088,12 +1088,22 @@ body {
 }
 
 /*.testimonials نهاية القسم السادس من الصفحة الرئيسية ضمن كلاس  */
+@media (max-width:768px) {
+    .testimonials .container .all-testimonials {
+        position: relative;
+        left: 55px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+
+
+    }
+}
 
 /*logon بداية القسم السابع من الصفحة الرئيسية ضمن كلاس  */
 .logon {
     background-color: #7a4e3d93;
     border-top: 2px solid var(--main-color);
-    height: 360px;
+    height: 300px;
     /* padding: 20px 0; */
 
 }
@@ -1237,56 +1247,48 @@ body {
     border: 1px solid white;
 }
 
+
 /* بداية التحديد على حسب مقاسات الشاشات */
-
-/*بداية تحديد على مقاس شاشة الجوال  */
-@media (max-width:768px) {}
-
-/* 
-بداية تحديد على مقاس شاشة الجوال  */
+/* بداية تحديد على مقاس شاشة الجوال  */
 @media (max-width:768px) {
     .logon .container .end h2 {
         position: relative;
-        right: 40px;
-        font-size: 18px;
+        font-size: 15px;
+        text-align: center;
         bottom: 15px;
-
 
     }
 
     .logon .container .end p {
-        width: 70%;
+        width: 120%;
         position: relative;
-        font-size: 13px;
+        left: 13px;
+        font-size: 10px;
         text-align: center;
-
-
-
     }
 
     .logon .container nav ol h2 {
         position: relative;
-        left: 80px;
-        top: 15px;
-        font-size: 12px;
-
+        left: 15px;
+        top: 1px;
+        font-size: 10px;
 
 
     }
 
     .logon .container nav ol li {
         width: 160%;
-        font-size: 12px;
+        font-size: 10px;
         position: relative;
-        left: 80px;
-        top: 25px;
-
+        left: 15px;
+        top: 15px;
     }
 
     .logon .container .social h2 {
-        font-size: 15px;
+        font-size: 12px;
         position: relative;
-
+        
+        text-align: center;
     }
 
     .logon .container .social p {
@@ -1294,7 +1296,7 @@ body {
         bottom: 20px;
         font-size: 10px;
         top: 5px;
-        left: 26px;
+        right: 16px;
     }
 
     .logon .container .social a {
@@ -1302,13 +1304,12 @@ body {
         bottom: 20px;
         font-size: 10px;
         top: 5px;
-        left: 25px;
+        right: 10px;
 
     }
 
-
-
 }
+
 
 /*نهاية تحديد على مقاس شاشة جوال  */
 

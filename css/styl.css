@@ -735,7 +735,7 @@ body {
 
 /*بداية تحديد على مقاس شاشة جوال  */
 
-/* 📱 استعلام وسائط للشاشات الصغيرة (الجوالات) */
+/*  استعلام وسائط للشاشات الصغيرة (الجوالات) */
 @media (max-width: 767px) {
     .Productts {
         padding: 0px;
@@ -1794,7 +1794,47 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+
+    .new-products .swiper .product-info h3 {
+        font-size: 14px;
+
+    }
+
+    /* تحديد حجم العنوان الثاني */
+    .new-products .swiper .product-info p {
+
+        line-height: 1.5;
+        font-size: 13px;
+        padding-left: 13px;
+        padding-right: 12px;
+        font-weight: 700;
+    }
+    
+
+}
+
+@media (min-width:1281px) {
+    .new-products .swiper .product-info h3 {
+        font-size: 18px;
+
+    }
+
+    /* تحديد حجم العنوان الثاني */
+    .new-products .swiper .product-info p {
+
+        line-height: 1.5;
+        font-size: 16px;
+        padding-left: 13px;
+        padding-right: 12px;
+        font-weight: 700;
+
+
+    }
+}
+
 /* نهاية القسم الرابع*/
+
 
 /*بداية صفحة قسم العطور  */
 .bunner {

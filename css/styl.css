@@ -1287,7 +1287,7 @@ body {
     .logon .container .social h2 {
         font-size: 12px;
         position: relative;
-        
+
         text-align: center;
     }
 
@@ -1431,6 +1431,8 @@ body {
     .left_header a {
         padding: 0 45px;
     }
+
+
 }
 
 .left_header a:hover {
@@ -1459,8 +1461,6 @@ body {
 .cat img {
     transform: all 0.3s;
     border-radius: 5%;
-
-
 }
 
 .cat:hover img {
@@ -1470,6 +1470,7 @@ body {
 .colornames {
     color: rgba(57, 25, 25, 0.499);
     font-family: "Playpen Sans Arabic", cursive;
+    font-size: 18px;
 
 }
 

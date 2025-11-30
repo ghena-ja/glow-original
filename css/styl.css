@@ -401,7 +401,7 @@ body {
 /*services بداية القسم الثالث من صفحة الرئيسية ضمن كلاس  */
 .services {
     background-color: #eed5bf;
-    padding: 40px 0;
+    padding: 20px 0 ;
 
 }
 
@@ -736,7 +736,7 @@ body {
 /*بداية تحديد على مقاس شاشة جوال  */
 
 /*  استعلام وسائط للشاشات الصغيرة (الجوالات) */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .Productts {
         padding: 0px;
     }
@@ -1831,6 +1831,11 @@ body {
 
 
     }
+
+    .navbar-nav .nav-link {
+        font-size: 20px !important;
+       
+    }
 }
 
 .buttom_header {
@@ -1841,18 +1846,27 @@ body {
     gap: 1px !important;
     overflow: hidden !important;
 
+
 }
 
-.navbar-nav {
+.navbarr {
     flex-direction: row !important;
 }
+
 .navbar-nav .nav-link {
     font-size: 10px !important;
     position: relative !important;
     left: 45px !important;
     align-items: center !important;
+    color: rgb(97, 27, 27) !important;
 }
+@media (min-width:1281px) {
 
+    .navbar-nav .nav-link {
+        font-size: 15px !important;
+       
+    }
+}
 /* نهاية القسم الرابع*/
 
 

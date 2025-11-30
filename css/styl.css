@@ -24,6 +24,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
 /* انجليزي */
 /* font-family: "Qwitcher Grypen", cursive; */
+/* خط الواتس */
+/*   font-family: "Roboto", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 
 
@@ -666,6 +670,7 @@ body {
     overflow: hidden;
     cursor: pointer;
     z-index: 0;
+     font-family: "Roboto", sans-serif;
 }
 
 .Products .container .all-Products .Product:hover {
